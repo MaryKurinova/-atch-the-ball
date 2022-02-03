@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #6e1e6c;
+  text-shadow: #c78dc6 10px 8px 6px;
+  font-family: 'Khula', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #640a80;
+}
+
+.start {
+  font-size: 1.5rem;
+  border: 0.2rem ridge plum;
+  border-radius: 8px;
+  padding: 15px 32px;
+  background: linear-gradient(120deg, #e980f5 5%, #f5576c 100%);
+}
+
+h1 {
+  line-height: 1.4;
+  font-size: 4rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: margin 0.5s ease-out;
+  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+}
+
+.screen.up {
+  margin-top: -100vh;
+}
+
+.time-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.time-list li {
+  margin: 10px;
+}
+
+.time-btn {
+  background-color: transparent;
+  border: 2px solid #461878;
+  border-radius: 8px;
+  color: #101c5e;
+  cursor: pointer;
+  font-family: inherit;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.time-btn:hover {
+  border: 2px solid #520b4e;
+  color: #a80c38;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.primary {
+  color: #730821;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);;
+  box-shadow: -6px -6px 10px #a0a0a0, 5px 7px 20px #475462;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.sharik{
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.neww {
+  padding-right: 110px;
+  font-size: 1.5rem;
+  font: 1.7em sans-serif;
+}
+.neww:hover {
+  color: #580408;
+  cursor: pointer;
+}
